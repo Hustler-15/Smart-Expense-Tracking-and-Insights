@@ -72,7 +72,7 @@ print("Top TF-IDF Features:", tfidf_feature_names[:10])
 
 #Categorizing Transaction
 import pickle
-with open('models/random_forest_model.pkl', 'rb') as file:
+with open('models/svc_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 from sklearn.preprocessing import LabelEncoder
